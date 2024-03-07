@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+.image{
+    background-image: url(https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854031.jpg?w=1060&t=st=1707623412~exp=1707624012~hmac=f51b1a890aabb0c587a70d33d735597ec074f718cfc585548cf060aef8e0ba2c);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+    height: 408px;
+    border-radius: 30px;
+}
+.image h1{
+    text-align: center;
+}
+.image h2{
+
+    text-align: right;
+}
+.image h4{
+
+    text-align: right;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+.card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 60%;
+}
+.card1{
+    margin: 0 auto; /* Added */
+    left: -200px; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 100%;
+    position: absolute;
+}
+.card2{
+    margin: 0 auto; /* Added */
+    left: 100px; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+}
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #9a98988c;
+    padding: 20px;
+  }
